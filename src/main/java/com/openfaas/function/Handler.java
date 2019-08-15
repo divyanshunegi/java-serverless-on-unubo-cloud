@@ -9,7 +9,7 @@ public class Handler implements com.openfaas.model.IHandler {
 
     public IResponse Handle(IRequest req) {
         Response res = new Response();
-	    res.setBody("Java serverless on Unubo Cloud");
+	    res.setBody("Welcome to blindmatch");
 
 	    return res;
     }
